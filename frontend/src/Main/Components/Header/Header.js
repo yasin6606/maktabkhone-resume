@@ -1,30 +1,11 @@
 import React, { Component } from 'react';
 import { Container, Row, Col, Navbar, Nav } from 'react-bootstrap';
+import { MDBBtn } from 'mdbreact';
 
 class Header extends Component {
 
-    constructor(props) {
-        super(props);
-
-        this.customizeThem = React.createRef();
-        this.about = React.createRef();
-        this.skills = React.createRef();
-    };
-
     // arrow function for onClick on any button
-    btnChanges = () => {
-        if (this.customizeThem.current.id = "customizeThem") {
-
-        };
-
-        if (this.customizeThem.current.id = "about") {
-
-        };
-
-        if (this.customizeThem.current.id = "skills") {
-
-        };
-    };
+    btnChanges = e => this.props.btnClicked(e.currentTarget.id);
 
     render() {
         return (
@@ -35,15 +16,15 @@ class Header extends Component {
                             <Navbar className="border-bottom py-4 d-flex justify-content-around">
                                 <Navbar.Collapse className="d-flex justify-content-start">
                                     <Nav>
-                                        <button className="btn" id="customizeThem" onClick={this.btnChanges} ref={this.customizeThem}>Customize Theme</button>
+                                        <MDBBtn id="customizeThem" onClick={this.btnChanges}>Customize Theme</MDBBtn>
                                     </Nav>
                                 </Navbar.Collapse>
                                 <Navbar.Collapse className="d-flex justify-content-end">
                                     <Nav>
-                                        <button className="btn" id="about" onClick={this.btnChanges} ref={this.about}>About</button>
+                                        <MDBBtn id="about" onClick={this.btnChanges}>About</MDBBtn>
                                     </Nav>
                                     <Nav>
-                                        <button className="btn" id="skills" onClick={this.btnChanges} ref={this.skills}>Skills</button>
+                                        <MDBBtn id="skills" onClick={this.btnChanges}>Skills</MDBBtn>
                                     </Nav>
                                 </Navbar.Collapse>
                             </Navbar>
