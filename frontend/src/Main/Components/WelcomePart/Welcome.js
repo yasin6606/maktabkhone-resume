@@ -6,9 +6,9 @@ class Welcome extends Component {
     render() {
         return (
             <>
-                <Container className={`my-5 ${this.props.className}`}>
+                <Container className={`${this.props.className}`} style={{marginTop: "16%"}}>
                     <Row>
-                        <Col className="text-center my-5">
+                        <Col className="text-center">
                             <Row className="py-4">
                                 <Col>
                                     <h1>Hello, I`m Yassin Gourkani</h1>
