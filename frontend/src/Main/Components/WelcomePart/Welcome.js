@@ -6,7 +6,7 @@ class Welcome extends Component {
     render() {
         return (
             <>
-                <Container className="my-5 text-white">
+                <Container className={`my-5 ${this.props.className}`}>
                     <Row>
                         <Col className="text-center my-5">
                             <Row className="py-4">
@@ -23,27 +23,27 @@ class Welcome extends Component {
                                 <Col className="d-flex justify-content-center">
                                     <Row className="col-6">
                                         <Col className="p-0">
-                                            <NavLink href="https://github.com/yasin6606" className="text-white">
+                                            <NavLink href="https://github.com/yasin6606" className={`${this.props.className}`}>
                                                 <FaGithub size="30" />
                                             </NavLink>
                                         </Col>
                                         <Col className="p-0">
-                                            <NavLink href="https://www.twitter.com/kyanoosh1" className="text-white">
+                                            <NavLink href="https://www.twitter.com/kyanoosh1" className={`${this.props.className}`}>
                                                 <FaTwitter size="30" />
                                             </NavLink>
                                         </Col>
                                         <Col className="p-0">
-                                            <NavLink href="https://stackoverflow.com/users/13226548/kyanoosh-goorkani" className="text-white">
+                                            <NavLink href="https://stackoverflow.com/users/13226548/kyanoosh-goorkani" className={`${this.props.className}`}>
                                                 <FaStackOverflow size="30" />
                                             </NavLink>
                                         </Col>
                                         <Col className="p-0">
-                                            <NavLink href="https://www.linkedin.com/in/yassin-gourkani-38255a1a9" className="text-white">
+                                            <NavLink href="https://www.linkedin.com/in/yassin-gourkani-38255a1a9" className={`${this.props.className}`}>
                                                 <FaLinkedin size="30" />
                                             </NavLink>
                                         </Col>
                                         <Col className="p-0">
-                                            <NavLink href="https://www.instagram.com/yasin_gkn" className="text-white">
+                                            <NavLink href="https://www.instagram.com/yasin_gkn" className={`${this.props.className}`}>
                                                 <FaInstagram size="30" />
                                             </NavLink>
                                         </Col>
