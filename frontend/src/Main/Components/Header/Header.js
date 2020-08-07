@@ -13,7 +13,7 @@ class Header extends Component {
                 <Container className={`col-12`}>
                     <Row>
                         <Col>
-                            <Navbar className="border-bottom py-4 d-flex justify-content-around">
+                            <Navbar className="py-4 d-flex justify-content-around">
                                 <Navbar.Collapse className="d-flex justify-content-start">
                                     <Nav>
                                         <MDBBtn id="customizeThem" className={`${this.props.btnClassName}`} onClick={this.btnChanges}>Customize Theme</MDBBtn>
