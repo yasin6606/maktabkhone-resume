@@ -4,7 +4,9 @@ import Header from './Main/Components/Header/Header';
 
 function App() {
 
-  
+  const headerBtn = e => {
+    console.log(e)
+  };
 
   return (
     <>
@@ -13,7 +15,9 @@ function App() {
           <Col className="p-0">
             <Row>
               <Col className="p-0">
-                <Header />
+                <Header
+                  btnClicked={headerBtn}
+                />
               </Col>
             </Row>
           </Col>
