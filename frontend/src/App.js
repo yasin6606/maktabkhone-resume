@@ -1,6 +1,7 @@
 import React, { useRef } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import Header from './Main/Components/Header/Header';
+import Welcome from './Main/Components/WelcomePart/Welcome';
 
 function App() {
 
@@ -25,6 +26,11 @@ function App() {
                 <Header
                   btnClicked={headerBtn}
                 />
+              </Col>
+            </Row>
+            <Row>
+              <Col>
+                <Welcome />
               </Col>
             </Row>
             <Row ref={aboutPart}>
