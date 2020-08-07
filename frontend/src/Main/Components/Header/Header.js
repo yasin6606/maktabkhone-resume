@@ -10,21 +10,21 @@ class Header extends Component {
     render() {
         return (
             <>
-                <Container className="col-12">
+                <Container className={`col-12`}>
                     <Row>
                         <Col>
                             <Navbar className="border-bottom py-4 d-flex justify-content-around">
                                 <Navbar.Collapse className="d-flex justify-content-start">
                                     <Nav>
-                                        <MDBBtn id="customizeThem" onClick={this.btnChanges}>Customize Theme</MDBBtn>
+                                        <MDBBtn id="customizeThem" className={`${this.props.btnClassName}`} onClick={this.btnChanges}>Customize Theme</MDBBtn>
                                     </Nav>
                                 </Navbar.Collapse>
                                 <Navbar.Collapse className="d-flex justify-content-end">
                                     <Nav>
-                                        <MDBBtn id="about" onClick={this.btnChanges}>About</MDBBtn>
+                                        <MDBBtn id="about" className={`${this.props.btnClassName}`} onClick={this.btnChanges}>About</MDBBtn>
                                     </Nav>
                                     <Nav>
-                                        <MDBBtn id="skills" onClick={this.btnChanges}>Skills</MDBBtn>
+                                        <MDBBtn id="skills" className={`${this.props.btnClassName}`} onClick={this.btnChanges}>Skills</MDBBtn>
                                     </Nav>
                                 </Navbar.Collapse>
                             </Navbar>
