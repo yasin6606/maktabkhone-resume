@@ -3,13 +3,16 @@ import { Container, Row, Col } from 'react-bootstrap';
 import Header from './Main/Components/Header/Header';
 
 function App() {
+
+  
+
   return (
     <>
-      <Container>
+      <Container className="col-12">
         <Row>
-          <Col>
+          <Col className="p-0">
             <Row>
-              <Col>
+              <Col className="p-0">
                 <Header />
               </Col>
             </Row>
@@ -18,6 +21,6 @@ function App() {
       </Container>
     </>
   );
-}
+};
 
 export default App;
