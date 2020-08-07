@@ -3,7 +3,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import Header from './Main/Components/Header/Header';
 import Welcome from './Main/Components/WelcomePart/Welcome';
 import Snowflakes from 'magic-snowflakes';
-import { FaArrowDown, FaArrowUp } from 'react-icons/fa';
+import { FaArrowAltCircleDown } from 'react-icons/fa';
 
 function App() {
 
@@ -38,24 +38,20 @@ function App() {
               <Col className="col-12">
                 <Welcome />
               </Col>
-              <Col className="col-12 d-flex justify-content-center fixed-bottom">
-              </Col>
-              <FaArrowDown />
             </Row>
             <Row ref={aboutPart}>
               <Col className="col-12">
 
-              </Col>
-              <Col className="col-12 d-flex justify-content-center">
-                <FaArrowDown />
               </Col>
             </Row>
             <Row ref={skillsPart}>
               <Col className="col-12">
 
               </Col>
-              <Col className="col-12 d-flex justify-content-center">
-                <FaArrowUp />
+            </Row>
+            <Row className="fixed-bottom py-3">
+              <Col className="text-center">
+                <FaArrowAltCircleDown size="23" />
               </Col>
             </Row>
           </Col>
