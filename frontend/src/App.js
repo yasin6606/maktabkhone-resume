@@ -2,11 +2,15 @@ import React, { useRef } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import Header from './Main/Components/Header/Header';
 import Welcome from './Main/Components/WelcomePart/Welcome';
+import Snowflakes from 'magic-snowflakes';
 
 function App() {
 
   const aboutPart = useRef(null);
   const skillsPart = useRef(null);
+
+  // snow animation
+  Snowflakes({ color: "#fff", wind: false, maxSize: 4 });
 
   const headerBtn = e => {
     //scroll from About button in header to about part
@@ -18,13 +22,14 @@ function App() {
 
   return (
     <>
-      <Container className="col-12">
+      <Container className="col-12 bg-secondary" style={{ height: window.innerHeight }}>
         <Row>
           <Col className="p-0">
             <Row>
               <Col className="p-0">
                 <Header
                   btnClicked={headerBtn}
+                  btnClassName="text-white"
                 />
               </Col>
             </Row>
