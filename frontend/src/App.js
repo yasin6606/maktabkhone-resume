@@ -23,12 +23,17 @@ function App() {
     e === "skills" && skillsPart.current.scrollIntoView({ behavior: "smooth", block: "start" });
   };
 
+  // go arrow item
+  const goArrow = () => {
+
+  };
+
   return (
     <>
       <Container className="col-12 bg-secondary">
         <Row>
           <Col className="p-0">
-            <Row>
+            <Row className="fixed-top">
               <Col className="p-0">
                 <Header
                   btnClicked={headerBtn}
@@ -58,7 +63,7 @@ function App() {
             <Row className="fixed-bottom py-3">
               <Col className="text-center">
                 <MDBAnimation type="jello" infinite>
-                  <FaArrowCircleDown size="23" color="white" />
+                  <FaArrowCircleDown size="23" color="white" onClick={goArrow} />
                 </MDBAnimation>
               </Col>
             </Row>
