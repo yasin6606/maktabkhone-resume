@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Container, Row, Col, Navbar, Nav } from 'react-bootstrap';
-import { MDBBtn } from 'mdbreact';
 
 class Header extends Component {
 
@@ -12,7 +11,20 @@ class Header extends Component {
         this.skills = React.createRef();
     };
 
-    
+    // arrow function for onClick on any button
+    btnChanges = () => {
+        if (this.customizeThem.current.id = "customizeThem") {
+
+        };
+
+        if (this.customizeThem.current.id = "about") {
+
+        };
+
+        if (this.customizeThem.current.id = "skills") {
+
+        };
+    };
 
     render() {
         return (
@@ -23,15 +35,15 @@ class Header extends Component {
                             <Navbar className="border-bottom py-4 d-flex justify-content-around">
                                 <Navbar.Collapse className="d-flex justify-content-start">
                                     <Nav>
-                                        <MDBBtn onClick={this.btnChanges} ref={this.customizeThem}>Customize Theme</MDBBtn>
+                                        <button className="btn" id="customizeThem" onClick={this.btnChanges} ref={this.customizeThem}>Customize Theme</button>
                                     </Nav>
                                 </Navbar.Collapse>
                                 <Navbar.Collapse className="d-flex justify-content-end">
                                     <Nav>
-                                        <MDBBtn onClick={this.btnChanges} ref={this.about}>About</MDBBtn>
+                                        <button className="btn" id="about" onClick={this.btnChanges} ref={this.about}>About</button>
                                     </Nav>
                                     <Nav>
-                                        <MDBBtn onClick={this.btnChanges} ref={this.skills}>Skills</MDBBtn>
+                                        <button className="btn" id="skills" onClick={this.btnChanges} ref={this.skills}>Skills</button>
                                     </Nav>
                                 </Navbar.Collapse>
                             </Navbar>
