@@ -1,11 +1,18 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import Header from './Main/Components/Header/Header';
 
 function App() {
 
+  const aboutPart = useRef(null);
+  const skillsPart = useRef(null);
+
   const headerBtn = e => {
-    console.log(e)
+    //scroll from About button in header to about part
+    e === "about" && aboutPart.current.scrollIntoView({ behavior: "smooth", block: "start" });
+
+    //scroll from Skills button in header to skills part
+    e === "skills" && skillsPart.current.scrollIntoView({ behavior: "smooth", block: "start" });
   };
 
   return (
@@ -18,6 +25,16 @@ function App() {
                 <Header
                   btnClicked={headerBtn}
                 />
+              </Col>
+            </Row>
+            <Row ref={aboutPart}>
+              <Col>
+
+              </Col>
+            </Row>
+            <Row ref={skillsPart}>
+              <Col>
+
               </Col>
             </Row>
           </Col>
