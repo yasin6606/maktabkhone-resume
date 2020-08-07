@@ -2,8 +2,10 @@ import React, { useRef } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import Header from './Main/Components/Header/Header';
 import Welcome from './Main/Components/WelcomePart/Welcome';
+import About from './Main/Components/AboutPart/About';
 import Snowflakes from 'magic-snowflakes';
-import { FaArrowAltCircleDown } from 'react-icons/fa';
+import { FaArrowCircleDown } from 'react-icons/fa';
+import { MDBAnimation } from 'mdbreact';
 
 function App() {
 
@@ -23,7 +25,7 @@ function App() {
 
   return (
     <>
-      <Container className="col-12 bg-secondary" style={{ height: window.innerHeight }}>
+      <Container className="col-12 bg-secondary">
         <Row>
           <Col className="p-0">
             <Row>
@@ -34,24 +36,30 @@ function App() {
                 />
               </Col>
             </Row>
-            <Row>
+            <Row style={{ height: window.innerHeight }}>
               <Col className="col-12">
-                <Welcome />
+                <Welcome
+                  className="text-white"
+                />
               </Col>
             </Row>
-            <Row ref={aboutPart}>
+            <Row ref={aboutPart} style={{ height: window.innerHeight }}>
               <Col className="col-12">
-
+                <About
+                  className="text-White"
+                />
               </Col>
             </Row>
-            <Row ref={skillsPart}>
+            <Row ref={skillsPart} style={{ height: window.innerHeight }}>
               <Col className="col-12">
 
               </Col>
             </Row>
             <Row className="fixed-bottom py-3">
               <Col className="text-center">
-                <FaArrowAltCircleDown size="23" />
+                <MDBAnimation type="jello" infinite>
+                  <FaArrowCircleDown size="23" color="white" />
+                </MDBAnimation>
               </Col>
             </Row>
           </Col>
