@@ -1,0 +1,1 @@
+{"version":3,"sources":["Font-Family.css","Pointer-Cursor.css"],"names":[],"mappings":"AAAA,YACI,2BACJ,CCFA,sBACI,cACJ","file":"main.6f7efe16.chunk.css","sourcesContent":[".font-comic{\r\n    font-family: \"Comic Sans MS\"\r\n}",".pointer-cursor:hover {\r\n    cursor: pointer\r\n}"]}
