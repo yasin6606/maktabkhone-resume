@@ -25,7 +25,7 @@ class Skills extends Component {
                                     Object.entries(item)
                                         .filter(i => i[0] !== "id" && i[0] !== "img-path")
                                         .map(i =>
-                                            <Row key={item.id} className=" font-comic">
+                                            <Row key={i} className=" font-comic">
                                                 <Col>
                                                     <p className="font-weight-bold">{i[0]} : </p>
                                                 </Col>
