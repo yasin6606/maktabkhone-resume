@@ -1,0 +1,127 @@
+{
+  "firstName": "Yassin",
+  "lastName": "Gourkani",
+  "age": 24,
+  "location": "Shiraz",
+  "skills": {
+    "skill-one": {
+      "name": "ReactJS",
+      "area": "Web",
+      "type": "Library",
+      "degree": "high",
+      "img-path": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fmedium.com%2Ffree-code-camp%2Freact-higher-order-components-635d0bc38b6c&psig=AOvVaw3bUNhCJcrzjQDbPemjjwgR&ust=1596898413436000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCLDEuamsiesCFQAAAAAdAAAAABAN"
+    },
+    "skill-two": {
+      "name": "Redux",
+      "area": "Java-Script",
+      "type": "Library",
+      "degree": "high",
+      "img-path": "https://www.google.com/url?sa=i&url=https%3A%2F%2Ftorob.com%2Fp%2Ffe5d6bad-3e5e-4222-9072-af9f764467cf%2F%25D8%25A7%25D8%25B3%25D8%25AA%25DB%258C%25DA%25A9%25D8%25B1-redux%2F&psig=AOvVaw0r8ZlPrtFJGHXDCsirleo6&ust=1596899319554000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCPiCltqviesCFQAAAAAdAAAAABAD"
+    },
+    "skill-three": {
+      "name": "NextJS",
+      "area": "Web",
+      "type": "Framework",
+      "degree": "low",
+      "img-path": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fdev.to%2Fbenhayehudi%2Fgetting-started-with-nextjs-in-5-minutes-19ah&psig=AOvVaw205wKzW8a6tNwbGLMM2xY5&ust=1596899188497000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCOieiZuviesCFQAAAAAdAAAAABAJ"
+    },
+    "skill-four": {
+      "name": "NodeJS",
+      "area": "Web",
+      "type": "platform",
+      "degree": "high",
+      "img-path": "https://www.google.com/url?sa=i&url=https%3A%2F%2Ftorob.com%2Fp%2Fd1029b37-371e-4825-aaad-c555d9f97024%2F%25D8%25A7%25D8%25B3%25D8%25AA%25DB%258C%25DA%25A9%25D8%25B1-%25D9%2586%25D9%2588%25D8%25AF-%25D8%25AC%25DB%258C-%25D8%25A7%25D8%25B3-node-js%2F&psig=AOvVaw1Xb3EeKTz_AwE_7YWZrwPC&ust=1596899221976000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCIC-yauviesCFQAAAAAdAAAAABAD"
+    },
+    "skill-five": {
+      "name": "ExpressJS",
+      "area": "Web",
+      "type": "Framework",
+      "degree": "high",
+      "img-path": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpreetamcodes.com%2F&psig=AOvVaw2BP_h87hdYGeES7E3f18zl&ust=1596899249109000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCICHz72viesCFQAAAAAdAAAAABAI"
+    },
+    "skill-six": {
+      "name": "Mongoose",
+      "area": "Database",
+      "type": "Framework",
+      "degree": "high",
+      "img-path": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fgithub.com%2Fkevoj%2Fnodetomic-api&psig=AOvVaw1QVt_k8PgKvGCNCHCT2UOe&ust=1596899293452000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCLC04cyviesCFQAAAAAdAAAAABAI"
+    },
+    "skill-seven": {
+      "name": "My-SQL",
+      "area": "Database",
+      "type": "Database",
+      "degree": "high",
+      "img-path": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.brandeps.com%2Flogo%2FM%2FMySQL-01&psig=AOvVaw0DSesAVzmo8CTak6vjlMyN&ust=1596954259647000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCJiluq78iusCFQAAAAAdAAAAABAO"
+    },
+    "skill-eight": {
+      "name": "MongoDB",
+      "area": "Database",
+      "type": "Database",
+      "degree": "high",
+      "img-path": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.brandeps.com%2Flogo%2FM%2FMongoDB-01&psig=AOvVaw30-EDTGS5VDKFMGT7CIPqj&ust=1596954328673000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCODI59D8iusCFQAAAAAdAAAAABAm"
+    },
+    "skill-nine": {
+      "name": "PHP",
+      "area": "Programming",
+      "type": "Language",
+      "degree": "middle",
+      "img-path": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fssmmworld.com%2F&psig=AOvVaw1iEE88OHwZscEKweldphU_&ust=1596899342487000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCJD-9uOviesCFQAAAAAdAAAAABAJ"
+    },
+    "skill-ten": {
+      "name": "Bootstrap",
+      "area": "Web",
+      "type": "Framework",
+      "degree": "high",
+      "img-path": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.ambient-it.net%2Fformation%2Fformation-bootstrap%2F&psig=AOvVaw2aZgN-8cEOzSjt_kc8fTWQ&ust=1596953900545000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCKihjIT7iusCFQAAAAAdAAAAABAS"
+    },
+    "skill-eleven": {
+      "name": "React-Bootstrap",
+      "area": "Web",
+      "type": "Framework",
+      "degree": "high",
+      "img-path": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fblog.logrocket.com%2Fhow-to-use-bootstrap-with-react-a354715d1121%2F&psig=AOvVaw2uGDQzu2FnoZKHXcg9qo0t&ust=1596953984959000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCKjwx637iusCFQAAAAAdAAAAABAD"
+    },
+    "skill-twelve": {
+      "name": "Material-Design-Bootstrap",
+      "area": "Web",
+      "type": "Framework",
+      "degree": "high",
+      "img-path": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.facebook.com%2Fmdbootstrap%2Fposts&psig=AOvVaw1Swn8fLGdDsnq1Q_dAoQz0&ust=1596954015424000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCKih1b_7iusCFQAAAAAdAAAAABAJ"
+    },
+    "skill-thirteen": {
+      "name": "Python",
+      "area": "Programming",
+      "type": "Language",
+      "degree": "learning",
+      "img-path": "https://www.google.com/url?sa=i&url=http%3A%2F%2Fziobron.net%2Fcode-like-a-pythonista-assignments-in-python&psig=AOvVaw1YFqeONKKZJ8J4_QXgyBtA&ust=1596899364671000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCJDetu6viesCFQAAAAAdAAAAABAJ"
+    },
+    "skill-fourteen": {
+      "name": "Data-Mining",
+      "area": "Data-Science",
+      "type": "",
+      "degree": "learning",
+      "img-path": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.canstockphoto.com%2Fword-cloud-data-integration-32218621.html&psig=AOvVaw1XYo17Lqr6gxF56SGRLedw&ust=1596899384915000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCJiG5vqviesCFQAAAAAdAAAAABAX"
+    },
+    "skill-fifteen": {
+      "name": "Machine-Learning",
+      "area": "Data-Science",
+      "type": "",
+      "degree": "learning",
+      "img-path": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fut-redc.com%2Fmachine-learnin%2F&psig=AOvVaw1aOhbMQ8HPP7deO2EFEreM&ust=1596899435109000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCMCEuZGwiesCFQAAAAAdAAAAABAD"
+    },
+    "skill-sixteen": {
+      "name": "IBM-SPSS",
+      "area": "Data-Science",
+      "type": "Software",
+      "degree": "learning",
+      "img-path": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pikpng.com%2Ftranspng%2FiooTTJm%2F&psig=AOvVaw1RMMv1NBYmkivJ3X3CqV2w&ust=1596899460426000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCJi7lZ2wiesCFQAAAAAdAAAAABAJ"
+    },
+    "skill-seventeen": {
+      "name": "Matlab",
+      "area": "Data-Science",
+      "type": "Software",
+      "degree": "low",
+      "img-path": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.ego-network.org%2Fdokuwiki%2Flib%2Fexe%2Fdetail.php%3Fid%3Dpublic%253Adatamanagement%26media%3Dimg%3Amatlab.jpg&psig=AOvVaw3qtKfPsg7sYHfZI3zpLfB0&ust=1596899482920000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCNDG-6awiesCFQAAAAAdAAAAABAD"
+    }
+  }
+}
