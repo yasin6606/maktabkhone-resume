@@ -14,7 +14,7 @@ class Skills extends Component {
     showSkillsCard = () => {
         const arr = db.skills.map(item =>
             <Col key={item.id} className="py-5">
-                <Card className="w3-hover-shadow pointer-cursor">
+                <Card className="w3-hover-shadow pointer-cursor h-100">
                     <Card.Header className="bg-white d-flex justify-content-center">
                         <img src={item["img-path"]} alt={item.name} width="190" height="190" />
                     </Card.Header>

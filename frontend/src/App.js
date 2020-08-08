@@ -56,8 +56,8 @@ function App() {
                 />
               </Col>
             </Row>
-            <Row ref={skillsPart} style={{ height: window.innerHeight }}>
-              <Col className="col-12 h-100">
+            <Row ref={skillsPart} className="">
+              <Col className="col-12">
                 <Skills />
               </Col>
             </Row>
