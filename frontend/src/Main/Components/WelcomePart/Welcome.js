@@ -1,22 +1,38 @@
 import React, { Component } from 'react';
 import { Container, Row, Col, NavLink } from 'react-bootstrap';
 import { FaGithub, FaTwitter, FaStackOverflow, FaLinkedin, FaInstagram } from 'react-icons/fa';
+import db from './../../Database/information.json';
 
 class Welcome extends Component {
-    render() {
+
+    state = {
+        summarySkills: [],
+    };
+
+    showSummarySkills = () => {
+        const arr = db.skills.map(item => <span key={item.id} className="px-1">{item.name}</span>);
+
+        this.setState({ summarySkills: arr });
+    };
+
+    componentDidMount = () => {
+        this.showSummarySkills();
+    };
+
+    render = () => {
         return (
             <>
-                <Container className={`${this.props.className}`} style={{marginTop: "16%"}}>
+                <Container className={`${this.props.className}`} style={{ marginTop: "16%" }}>
                     <Row>
                         <Col className="text-center">
                             <Row className="py-4">
                                 <Col>
-                                    <h1>Hello, I`m Yassin Gourkani</h1>
+                                    <h1>Hello, I`m {db.firstName} {db.lastName}</h1>
                                 </Col>
                             </Row>
                             <Row>
                                 <Col>
-                                    <p>Full Stack Dev ! React ! Node JS ! PHP ! HTML ! CSS</p>
+                                    {this.state.summarySkills}
                                 </Col>
                             </Row>
                             <Row className="py-3">
