@@ -24,9 +24,13 @@ function App() {
     e === "skills" && skillsPart.current.scrollIntoView({ behavior: "smooth", block: "start" });
   };
 
-  // go arrow item
-  const goArrow = () => {
+  const changeTheme = () => {
 
+  };
+
+  // go arrow item
+  const goArrow = e => {
+    console.log(e.clientY)
   };
 
   return (
@@ -39,6 +43,7 @@ function App() {
                 <Header
                   btnClicked={headerBtn}
                   btnClassName="text-white shadow-none"
+                  changeThemeFunc={changeTheme}
                 />
               </Col>
             </Row>
@@ -56,7 +61,7 @@ function App() {
                 />
               </Col>
             </Row>
-            <Row ref={skillsPart} className="">
+            <Row ref={skillsPart}>
               <Col className="col-12">
                 <Skills />
               </Col>
