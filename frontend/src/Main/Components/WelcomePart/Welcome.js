@@ -9,13 +9,17 @@ class Welcome extends Component {
         summarySkills: [],
     };
 
+    // get skills from database
     showSummarySkills = () => {
-        const arr = db.skills.map(item => <span key={item.id} className="px-1">{item.name}</span>);
+
+        // only show six of first skills in the array. because this is summary
+        const arr = db.skills.filter(item => item.id < 6).map(item => <span key={item.id} className="px-1 font-italic">{item.name} !</span>);
 
         this.setState({ summarySkills: arr });
     };
 
     componentDidMount = () => {
+        // show a summary of skills
         this.showSummarySkills();
     };
 
