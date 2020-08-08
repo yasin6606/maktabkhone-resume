@@ -6,7 +6,7 @@ class About extends Component {
     render() {
         return (
             <>
-                <Container className="text-white my-5 py-5">
+                <Container className="my-5 py-5" style={{ color: this.props.textClassName }}>
                     <Row>
                         <Col className="my-5 py-3">
                             <Row>
@@ -16,10 +16,7 @@ class About extends Component {
                             </Row>
                             <Row>
                                 <Col>
-                                    <p>My name is {db.firstName} {db.lastName} and i`m {db.age}</p>
-                                    <p>I`m from {db.location} and I`m working on programming About Web</p>
-                                    <p>I`m trying to learn more about web programming and all the thing about programming. Also i`m studying about Data Science.</p>
-                                    <p>For learning Data Science i should to learn Data Mining, Machine Learning, Python and etc</p>
+                                    <p>{db.description}</p>
                                 </Col>
                             </Row>
                         </Col>

@@ -3,6 +3,7 @@
   "lastName": "Gourkani",
   "age": 24,
   "location": "Shiraz",
+  "description": "My name is Yassin Gourkani and i`m 24 . I`m from Shiraz and I`m working on programming About Web.   I`m trying to learn more about web programming and all the thing about programming. Also i`m studying about Data Science.  For learning Data Science i should to learn Data Mining, Machine Learning, Python and etc",
   "skills": [
     {
       "id": 1,
