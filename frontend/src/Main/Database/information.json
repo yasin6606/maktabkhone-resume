@@ -74,7 +74,7 @@
       "name": "PHP",
       "area": "Programming",
       "type": "Language",
-      "degree": "middle",
+      "degree": "mid-level",
       "img-path": "https://pvlearn.com/wp-content/uploads/2018/07/php-elephant.png"
     },
     {
@@ -103,14 +103,22 @@
     },
     {
       "id": 13,
-      "name": "Python",
-      "area": "Programming",
-      "type": "Language",
-      "degree": "learning",
-      "img-path": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/768px-Python-logo-notext.svg.png"
+      "name": "Swagger",
+      "area": "API",
+      "type": "Framework",
+      "degree": "high",
+      "img-path": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTY5SK_Gd7mvCOLG23CpYHPYES-fKp75_RZfQ&usqp=CAU"
     },
     {
       "id": 14,
+      "name": "Python",
+      "area": "Programming",
+      "type": "Language",
+      "degree": "mid-level",
+      "img-path": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/768px-Python-logo-notext.svg.png"
+    },
+    {
+      "id": 15,
       "name": "Data-Mining",
       "area": "Data-Science",
       "type": "",
@@ -118,7 +126,7 @@
       "img-path": "data:image/jpeg;base64,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"
     },
     {
-      "id": 15,
+      "id": 16,
       "name": "Machine-Learning",
       "area": "Data-Science",
       "type": "",
@@ -126,15 +134,15 @@
       "img-path": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR6b8mUialTRrUdFhBXqp86aVAISwv8V5QlHA&usqp=CAU"
     },
     {
-      "id": 16,
+      "id": 17,
       "name": "IBM-SPSS",
       "area": "Data-Science",
       "type": "Software",
-      "degree": "learning",
+      "degree": "low",
       "img-path": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQc7Z51fPEPnevq5keS8OxQvmjlztsHpt_yWA&usqp=CAU"
     },
     {
-      "id": 17,
+      "id": 18,
       "name": "Matlab",
       "area": "Data-Science",
       "type": "Software",
