@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/maktabkhoneh-first-project/static/css/main.6f7efe16.chunk.css",
-    "main.js": "/maktabkhoneh-first-project/static/js/main.78de9aa9.chunk.js",
-    "main.js.map": "/maktabkhoneh-first-project/static/js/main.78de9aa9.chunk.js.map",
-    "runtime-main.js": "/maktabkhoneh-first-project/static/js/runtime-main.6e6fb9ec.js",
-    "runtime-main.js.map": "/maktabkhoneh-first-project/static/js/runtime-main.6e6fb9ec.js.map",
-    "static/css/2.ec4924bd.chunk.css": "/maktabkhoneh-first-project/static/css/2.ec4924bd.chunk.css",
-    "static/js/2.9dc5b0d2.chunk.js": "/maktabkhoneh-first-project/static/js/2.9dc5b0d2.chunk.js",
-    "static/js/2.9dc5b0d2.chunk.js.map": "/maktabkhoneh-first-project/static/js/2.9dc5b0d2.chunk.js.map",
-    "index.html": "/maktabkhoneh-first-project/index.html",
-    "precache-manifest.94a222c9bc115464e78c65051cc4bc90.js": "/maktabkhoneh-first-project/precache-manifest.94a222c9bc115464e78c65051cc4bc90.js",
-    "service-worker.js": "/maktabkhoneh-first-project/service-worker.js",
-    "static/css/2.ec4924bd.chunk.css.map": "/maktabkhoneh-first-project/static/css/2.ec4924bd.chunk.css.map",
-    "static/css/main.6f7efe16.chunk.css.map": "/maktabkhoneh-first-project/static/css/main.6f7efe16.chunk.css.map",
-    "static/js/2.9dc5b0d2.chunk.js.LICENSE.txt": "/maktabkhoneh-first-project/static/js/2.9dc5b0d2.chunk.js.LICENSE.txt",
-    "static/media/font-face.css": "/maktabkhoneh-first-project/static/media/Vazir.fd58729f.eot",
-    "static/media/all.min.css": "/maktabkhoneh-first-project/static/media/fa-solid-900.ee09ad75.woff"
+    "main.css": "/maktabkhone-resume/static/css/main.6f7efe16.chunk.css",
+    "main.js": "/maktabkhone-resume/static/js/main.2295786e.chunk.js",
+    "main.js.map": "/maktabkhone-resume/static/js/main.2295786e.chunk.js.map",
+    "runtime-main.js": "/maktabkhone-resume/static/js/runtime-main.3f0876cc.js",
+    "runtime-main.js.map": "/maktabkhone-resume/static/js/runtime-main.3f0876cc.js.map",
+    "static/css/2.ffde37d6.chunk.css": "/maktabkhone-resume/static/css/2.ffde37d6.chunk.css",
+    "static/js/2.9dc5b0d2.chunk.js": "/maktabkhone-resume/static/js/2.9dc5b0d2.chunk.js",
+    "static/js/2.9dc5b0d2.chunk.js.map": "/maktabkhone-resume/static/js/2.9dc5b0d2.chunk.js.map",
+    "index.html": "/maktabkhone-resume/index.html",
+    "precache-manifest.366e0c84a937e5aa621dfb5abbe56c96.js": "/maktabkhone-resume/precache-manifest.366e0c84a937e5aa621dfb5abbe56c96.js",
+    "service-worker.js": "/maktabkhone-resume/service-worker.js",
+    "static/css/2.ffde37d6.chunk.css.map": "/maktabkhone-resume/static/css/2.ffde37d6.chunk.css.map",
+    "static/css/main.6f7efe16.chunk.css.map": "/maktabkhone-resume/static/css/main.6f7efe16.chunk.css.map",
+    "static/js/2.9dc5b0d2.chunk.js.LICENSE.txt": "/maktabkhone-resume/static/js/2.9dc5b0d2.chunk.js.LICENSE.txt",
+    "static/media/font-face.css": "/maktabkhone-resume/static/media/Vazir.fd58729f.eot",
+    "static/media/all.min.css": "/maktabkhone-resume/static/media/fa-solid-900.ee09ad75.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.6e6fb9ec.js",
-    "static/css/2.ec4924bd.chunk.css",
+    "static/js/runtime-main.3f0876cc.js",
+    "static/css/2.ffde37d6.chunk.css",
     "static/js/2.9dc5b0d2.chunk.js",
     "static/css/main.6f7efe16.chunk.css",
-    "static/js/main.78de9aa9.chunk.js"
+    "static/js/main.2295786e.chunk.js"
   ]
 }
